@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.buttons{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+button{
+    border-radius: 7%;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    background-color: $textcolor;
+    font-family: $font;
+    font-size: 40px;
+    margin-left: 30px;
+    &:hover{
+        background: $shadow;
+        transition: background 0.5s ease-in;
+    }
+
+    
+}
