@@ -5,16 +5,21 @@
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    width: 80vw;
+    margin: 0 auto;
+    
+
 }
 button{
     border-radius: 7%;
     border: 1px solid black;
-    width: 150px;
+    width: 30vw;
     height: 50px;
     background-color: $textcolor;
     font-family: $font;
-    font-size: 40px;
-    margin-left: 30px;
+    font-size: 2em;
+    margin: 5px auto;
+  
     &:hover{
         background: $shadow;
         transition: background 0.5s ease-in;
