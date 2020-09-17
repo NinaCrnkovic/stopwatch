@@ -21,12 +21,12 @@
     flex-direction: row;
 
     #display{
-        width: 100%;
-      font-size: 50px;
+      width: 100vw;
+      font-size: 2.5em;
       font-family: $font;
       text-align: center;
       color: $textcolor;
-      margin: 50px auto;
+      margin: 0 auto;
       background-color: $backcolor;
       text-shadow: 2px 2px $shadow;
     }
